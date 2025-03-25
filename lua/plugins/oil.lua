@@ -20,7 +20,8 @@ return {
             require("oil").setup(opts)
         end,
         keys = {
-            { "<leader>e", "<cmd>Oil --float<CR>", desc = "Explorer" },
+            { "<leader>e", "<cmd>Oil<CR>", desc = "Explorer" },
+            { "<leader>E", "<cmd>Oil --float<CR>", desc = "Explorer" },
         },
         dependencies = { "nvim-tree/nvim-web-devicons" },
     },
